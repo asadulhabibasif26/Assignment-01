@@ -150,6 +150,7 @@ main{
 }
 .reviewer-one{
     display: flex;
+    align-items: center;
     
 }
 .review-details{
@@ -162,4 +163,24 @@ main{
 }
 .review-details h4{
     font-size: 24px;
+    font-weight: 600;
+    color: #1E1E1E;
+    margin: 15px 0px;
+}
+.review-details p{
+    color: #1E1E1E;
+    margin-bottom: 15px;
+}
+
+.review-name h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: #757575;
+}
+.review-name h6{
+    font-size: 16px;
+    color: #B3B3B3;
+}
+.reviewer-one img {
+    margin-right: 10px;
 }
