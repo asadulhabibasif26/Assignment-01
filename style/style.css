@@ -14,10 +14,6 @@
     margin: 0;
     padding: 0;
 }
-/* body style */
-body{
-    margin-bottom: 100px;
-}
 
 /* header section style */
 header{
@@ -265,4 +261,28 @@ main{
 }
 button{
     cursor: pointer;
+}
+
+/* footer section */
+
+footer{
+    padding: 100px 450px;
+    text-align: center;
+}
+footer h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(78, 71, 255, 1);
+}
+footer p{
+    color: #8987A1;
+    margin-top: 20px;
+}
+.footer-action a{
+    text-decoration: none;
+    color: #8987A1;
+    margin-right: 48px;
+}
+.footer-action{
+    margin-top: 20px;
 }
