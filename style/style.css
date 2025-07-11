@@ -138,3 +138,28 @@ main{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
 }
+
+/* review section style */
+.review{
+    margin-top: 150px;
+}
+.review-content{
+    display: flex;
+    padding: 24px;
+    gap: 24px;
+}
+.reviewer-one{
+    display: flex;
+    
+}
+.review-details{
+    background-color: gainsboro;
+    padding: 24px;
+}
+.review-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.review-details h4{
+    font-size: 24px;
+}
