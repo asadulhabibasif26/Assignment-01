@@ -244,6 +244,7 @@ main{
     border: 1px solid rgba(0, 0, 0, 0.5);
     font-size: 20px;
     margin-bottom: 15px;
+    padding: 10px;
 }
 .get-container textarea{
     border-radius: 10px;
@@ -285,4 +286,12 @@ footer p{
 }
 .footer-action{
     margin-top: 20px;
+}
+
+/* hover style section */
+button:hover{
+    background-color: #B3B3B3;
+}
+.footer-action a:hover{
+    border: 1px solid blue;
 }
