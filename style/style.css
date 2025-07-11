@@ -14,6 +14,10 @@
     margin: 0;
     padding: 0;
 }
+/* body style */
+body{
+    margin-bottom: 100px;
+}
 
 /* header section style */
 header{
@@ -64,4 +68,43 @@ nav button{
     border-radius: 10px;
     color: white;
     border: none;
+}
+
+/* main section style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 115px;
+}
+/* action section style */
+
+.action{
+    display: flex;
+    gap: 200px;
+    height: 328px;
+    align-items: center;
+}
+
+.action img{
+    border-radius: 25px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 24px;
+}
+
+.action-description{
+    font-size:24px;
+    color: #252432;
+    margin-bottom: 24px;
+}
+.action-text button{
+    background-color: #4E47FF;
+    height: 48px;
+    width: 229px;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
