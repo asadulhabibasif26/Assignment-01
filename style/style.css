@@ -18,7 +18,7 @@
 /* header section style */
 header{
     height:698px;
-    background-image: url(Assets/Hero-bg.png);
+    background-image: url(../Assets/Hero-bg.png);
 }
 
 nav{
