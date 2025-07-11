@@ -108,3 +108,33 @@ main{
     border: none;
     border-radius: 10px;
 }
+
+/* productive user section style */
+
+.productive-score{
+    display: flex;
+    justify-content: space-between;
+}
+.productive-user{
+    margin-top: 115px;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 140px ;
+}
+.score-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.score-main{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    margin-top: 40px;
+
+}
+
+.score-dsc{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
