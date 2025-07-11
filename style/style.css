@@ -218,3 +218,51 @@ main{
     color: white;
     margin-bottom: 20px;
 }
+
+/* get-in-touch section style */
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.get-container{
+    display: grid;
+}
+.get-in-touch h3{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.get-container label{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.get-container input{
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.get-container textarea{
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 20px;
+}
+.get-container button{
+    width: 497px;
+    height: 62px;
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
